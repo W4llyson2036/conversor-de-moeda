@@ -183,6 +183,7 @@ export default function CurrencyCard(props) {
 export const Div = styled.div`
     margin-top: 105px;
     width: fit-content;
+    margin: 1rem;
     font-family: var(--ff-roboto);
 `;
 

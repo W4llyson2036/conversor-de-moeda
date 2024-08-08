@@ -1,13 +1,18 @@
-body {
+body { 
   height: 100vh;
   padding: 4rem;
-  background: url('../assets/Mask.png') center right no-repeat ;
+  background: url('../assets/Mask.png') right bottom no-repeat;
   background-size: contain;
 }
 
-@media screen and (max-width: 159rem) {
+@media screen and (max-width: 50rem) {
   body {
-    height: 100vh;
-    background-position: bottom right;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-height: 510px) {
+  body {
+    background: url();
   }
 }
