@@ -1,0 +1,37 @@
+:root {
+  /* Colors */
+  --clr-black: hsl(0, 0%, 0%); 
+  --clr-white: hsl(0, 0%, 100%); 
+  --clr-primary: #008B57; 
+
+  /* Colors: title and text  */
+  --clr-text: #45505E; 
+  --clr-text-sm: #8C9CAD;
+  --clr-text-input-label: #2E3742;
+  --clr-btn-convert-false: #8C9CAD;
+  --clr-btn-convert-true: #008B57;
+
+  /* Font Family */
+  --ff-roboto: 'Roboto';
+
+  /* Font sizes */
+  --fs-14: 14px;
+  --fs-16: 16px; 
+  --fs-18: 18px; 
+  --fs-20: 20px;
+  --fs-64: 64px;
+  /* --fs-clamp: clamp(0.7rem, 3vw + 1rem , 4.5rem); */
+
+  /* Font sizes: title and text */
+  --ff-txt-input: var(--fs-16);
+  --fs-text: var(--fs-18);
+  --fs-text-sm: var(--fs-14);
+  --fs-text-big-price: var(--fs-64);
+
+  /* Font weights */
+  --fw-thin: 100;
+  --fw-light: 200;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+}

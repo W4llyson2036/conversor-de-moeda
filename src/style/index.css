@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  padding: 4rem;
+  background: url('../assets/Mask.png') center right no-repeat ;
+  background-size: contain;
+}
+
+@media screen and (max-width: 159rem) {
+  body {
+    height: 100vh;
+    background-position: bottom right;
+  }
+}
